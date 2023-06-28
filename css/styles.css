@@ -3,6 +3,7 @@ body {
 }
 a{
     text-decoration: none;
+    font-style: normal;
 }
 .header {
     background-color: #FFFFFF;
