@@ -39,10 +39,8 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
-
 }
-.header-list, .header-contacts, .company-benefits-list, .company-activity-list, .company-team-list {
+.list {
     list-style: none;
 }
 
