@@ -166,16 +166,8 @@ body {
 .portfolio-section{
     text-align: center;
 }
-.btn-all {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    color: var(--white-color);
-    background-color: #404BBF;
-}
+
+
 .btn {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
