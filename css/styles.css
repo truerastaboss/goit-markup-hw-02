@@ -113,7 +113,7 @@ body {
     background-color: #F4F4FD;
     text-align: center;
 }
-.worker {
+.worker, .img-section {
     background-color: #FFFFFF;
 }
 .company-team-title-main {
