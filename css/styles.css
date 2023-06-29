@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--white-color);
     }
 :root {
     --accent-color: #4D5AE5;
@@ -15,10 +17,10 @@ body {
 .header-logo {
     color: var(--accent-color);
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -53,15 +55,21 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    color: #ffffff;
 }
 .first-section-btn {
     color: var(--white-color);
     background-color: var(--accent-color);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.first-section-btn:hover, .first-section-btn:focus {
+    background-color: #404BBF;
 }
 
 .company-benefits {
@@ -73,6 +81,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .company-benefits-text {
@@ -80,10 +89,12 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .company-activity {
     text-align: center;
+    text-transform: capitalize;
 }
 
 .company-activity-title {
@@ -91,6 +102,7 @@ body {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .company-team {
     background-color: #F4F4FD;
@@ -101,6 +113,8 @@ body {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
 
 .company-team-title {
@@ -108,21 +122,23 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 .company-team-text {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#434455:
 }
 .footer {
     background-color: #2E2F42;
 }
 .footer-logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-transform: uppercase;
@@ -136,6 +152,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:#F4F4FD;
 }
 
 .portfolio-section{
@@ -146,6 +163,7 @@ body {
     background-color: #404BBF;
 }
 .button {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
