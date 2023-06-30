@@ -15,9 +15,6 @@ body {
     color:#404bbf;
 }
 
-.header {
-    background-color: #E7E9FC;
-}
 .header-logo {
     color: var(--accent-color);
     text-transform: uppercase;
@@ -77,9 +74,6 @@ body {
     background-color: #404BBF;
 }
 
-.company-benefits {
-    text-align: center;
-}
 
 .company-benefits-title {
     font-size: 20px;
@@ -91,14 +85,12 @@ body {
 
 .company-benefits-text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
 .company-activity {
-    text-align: center;
     text-transform: capitalize;
 }
 
@@ -108,10 +100,10 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
 }
 .company-team {
     background-color: #F4F4FD;
-    text-align: center;
 }
 .worker {
     background-color: #FFFFFF;
@@ -123,6 +115,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    text-align: center;
 }
 
 .company-team-title {
@@ -162,11 +155,6 @@ body {
     letter-spacing: 0.02em;
     color:#F4F4FD;
 }
-
-.portfolio-section{
-    text-align: center;
-}
-
 
 .btn {
     font-family: "Roboto", sans-serif;
